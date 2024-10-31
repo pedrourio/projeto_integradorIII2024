@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(86, 86, 189);
+    background: linear-gradient(90deg, rgba(86, 86, 189, 1) 2%, rgba(157, 236, 255, 1) 100%);
+}
+
+.logoheader{
+    width: 30%;
+}
+
+.navbar {
+    background: linear-gradient(90deg, rgb(64, 64, 136) 2%, rgb(122, 182, 197) 100%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cccccc00;
+    background-color: #ffffff80;
+    outline: 0;
+    color: rgb(255, 253, 253);
+}
+
+.search-bar button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
